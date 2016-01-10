@@ -1,0 +1,26 @@
+<resources>
+    <string name="dbName">books_db</string>
+    <string name="bookTableName">book</string>
+    <string name="createBooksTable">CREATE TABLE book (id integer primary key autoincrement, title text not null, author text);</string>
+    <string name="dropTable">DROP TABLE IF EXISTS %1$s</string>
+    <string name="selectBookById">SELECT id, title, author FROM book WHERE id = ?</string>
+    <string name="selectBooks">SELECT id, title, author FROM book</string>
+    <string name="idColumn">id</string>
+    <string name="titleColumn">title</string>
+    <string name="authorColumn">author</string>
+    <string name="deleteIdParam">id = ?</string>
+    <string name="app_name">BookListMVP</string>
+    <string name="bookTitle">Tytuł książki</string>
+    <string name="bookAuthor">Autor</string>
+    <string name="addToList">Dodaj do listy</string>
+    <string name="alreadyRead">Już przeczytałem!</string>
+
+    <integer name="dbVersion">2</integer>
+</resources>
+
+
+
+
+
+
+
