@@ -15,5 +15,4 @@ public class BookListModelFactory {
     public static ListModel<Book> createSQLiteModel(ListObserver listObserver) {
         return BookListMVPApplication.getInstance().getSqLiteBookListModelWithAttachedObserver(listObserver);
     }
-    // below there can be placed methods for getting another ListModel<Book> implementations
 }
